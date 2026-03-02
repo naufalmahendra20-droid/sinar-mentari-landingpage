@@ -803,3 +803,10 @@ img{ max-width:100%; display:block; }
 .hero p{
   color: rgba(255,255,255,0.9);
 }
+/* ===== FIX HERO MOBILE ===== */
+@media (max-width: 768px){
+  .hero{
+    background-position: center right;
+    padding: 100px 20px 80px;
+  }
+}
