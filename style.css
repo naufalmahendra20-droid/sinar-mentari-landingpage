@@ -772,12 +772,15 @@ img{ max-width:100%; display:block; }
 /* ===== HERO BACKGROUND PREMIUM ===== */
 
 .hero{
-  position: relative;
-  padding: 120px 20px 100px;
-  background: url("assets/hero-new.jpg") center/cover no-repeat;
-  color: #fff;
-  overflow: hidden;
-}
+    position: relative;
+    padding: 120px 20px 100px;
+    background: 
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)),
+        url("assets/hero-new.jpg") center/cover no-repeat;
+    color: #fff;
+    overflow: hidden;
+    filter: contrast(1.1) brightness(0.95) saturate(1.1);
+  }
 
 .hero::before{
   content: "";
