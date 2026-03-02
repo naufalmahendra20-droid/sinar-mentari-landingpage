@@ -774,7 +774,7 @@ img{ max-width:100%; display:block; }
 .hero{
   position: relative;
   padding: 120px 20px 100px;
-  background: url("assets/hero.jpg") center/cover no-repeat;
+  background: url("assets/hero-new.jpg") center/cover no-repeat;
   color: #fff;
   overflow: hidden;
 }
