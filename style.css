@@ -803,10 +803,12 @@ img{ max-width:100%; display:block; }
 .hero p{
   color: rgba(255,255,255,0.9);
 }
-/* ===== FIX HERO MOBILE ===== */
+/* ===== HERO MOBILE VERSION ===== */
 @media (max-width: 768px){
   .hero{
-    background-position: 65% center;
+    background-image: url("assets/hero-mobile.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 100px 20px 80px;
   }
 }
