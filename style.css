@@ -806,7 +806,7 @@ img{ max-width:100%; display:block; }
 /* ===== FIX HERO MOBILE ===== */
 @media (max-width: 768px){
   .hero{
-    background-position: center right;
+    background-position: 65% center;
     padding: 100px 20px 80px;
   }
 }
